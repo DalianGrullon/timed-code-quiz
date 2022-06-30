@@ -49,4 +49,9 @@ let questions = [
         choices: ["=", "==", "===", "!="],
         answer: "="
     },
+    {
+        title: "",
+        choices: [""],
+        answer: ""
+    },
 ]

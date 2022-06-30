@@ -24,6 +24,10 @@
             <div id="user-choices" class="row">
                 <!-- buttons created here -->
             </div>
+            <div id="response-prompt">
+                <p id="correct-prompt" class="text-muted d-none">Woah, you got the last one right!</p>
+                <p id="incorrect-prompt" class="text-muted d-none">Oof, that was wrong!</p>
+            </div>
         </div>
         <!-- remove d-none when timer/score hits 0 -->
         <div id="scoreboard" class="jumbotron mx-auto mt-4 bg-light w-50 align-middle text-center pb-3 d-none">
@@ -36,7 +40,8 @@
                   <input type="text" class="form-control" id="initials" placeholder="Enter initials here">
                   <small id="initials-help" class="form-text text-muted">Your score will be attached to your initials and reported on the scoreboard</small>
                 </div>
-                <button type="submit" class="btn btn-lg btn-dark">Submit</button>
+                <button id="submit" type="submit" class="btn btn-lg btn-dark">Submit</button>
+                <a href="../html/scoreboard.html" id="nav-button" class="btn btn-lg btn-dark d-none" role="button">Next</a>
             </form>
         </div>
     </main>
