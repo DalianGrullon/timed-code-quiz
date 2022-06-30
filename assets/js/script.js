@@ -16,6 +16,7 @@ let timer = setInterval(function() {
         $("#time-interval").text("");
         $("#questions").addClass("d-none");
         $("#scoreboard").removeClass("d-none");
+        $("#final-score").append(timeLeft);
     } else if (i === (questions.length - 1)) {
         clearInterval(timer);
         alert(
@@ -25,6 +26,7 @@ let timer = setInterval(function() {
         $("#time-interval").text("");
         $("#questions").addClass("d-none");
         $("#scoreboard").removeClass("d-none");
+        $("#final-score").append(timeLeft);
     }
     
 }, 1000);
