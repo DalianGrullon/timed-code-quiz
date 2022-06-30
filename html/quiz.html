@@ -19,9 +19,11 @@
     <main>
         <!-- add d-none when timer/score hits 0 -->
         <div id="questions" class="jumbotron mx-auto mt-4 bg-light w-50 align-middle text-center pb-3">
-            <h1 class="display-4">(question displayed here)</h1>
+            <h1 id="questions-title" class="display-4"></h1>
             <hr class="my-4">
-            <button type="button" class="btn btn-sm btn-dark d-block mb-3">(answer displayed here)</button>
+            <div id="user-choices" class="row">
+                <!-- buttons created here -->
+            </div>
         </div>
         <!-- remove d-none when timer/score hits 0 -->
         <div id="scoreboard" class="jumbotron mx-auto mt-4 bg-light w-50 align-middle text-center pb-3 d-none">

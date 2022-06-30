@@ -45,7 +45,7 @@ let questions = [
         answer: "True"
     },
     {
-        title: "Which of the following is the assignment operator",
+        title: "Which of the following is the assignment operator?",
         choices: ["=", "==", "===", "!="],
         answer: "="
     },
