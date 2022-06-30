@@ -27,7 +27,7 @@ let timer = setInterval(function() {
         $("#scoreboard").removeClass("d-none");
     }
     
-}, 50);
+}, 1000);
 
 function loadQuestion() {
     $("#questions-title").text(questions[i].title);
@@ -74,20 +74,9 @@ function clearPrompt() {
     $("#incorrect-prompt").addClass("d-none");
 }
 
-
 $("#submit").on("click", function(e) {
     e.preventDefault();
-    let user = $(".form-control").val();
-
-    localStorage.setItem(user, JSON.stringify(timeLeft));
-
-    $("#submit").addClass("d-none");
-    $("#nav-button").removeClass("d-none");
-})
-
-$("#submit").on("submit", function(e) {
-    e.preventDefault();
-    let user = $(".form-control").val();
+    let user = $("#initials").val();
 
     localStorage.setItem(user, JSON.stringify(timeLeft));
 
