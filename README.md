@@ -1,6 +1,6 @@
 # Random Password Generator
 
-Deployed Application: 
+Deployed Application: https://daliangrullon.github.io/timed-code-quiz/
 
 <br>
 
