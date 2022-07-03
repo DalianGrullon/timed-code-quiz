@@ -1,4 +1,4 @@
-# Random Password Generator
+# Timed Code Quiz
 
 Deployed Application: https://daliangrullon.github.io/timed-code-quiz/
 
